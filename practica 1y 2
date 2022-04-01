@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>practica</title>
+	<style type="text/css">
+		* {
+			font-size: 1.1em;
+		}
+		#flotar {
+			float: left;
+			width: 200px;
+			margin-bottom: 100px;
+			margin-Left: 50px;
+			margin-top: 50px;
+			margin-right: 200px;
+			border: 4px solid black;
+		}
+		#cancelar {
+			clear: both;
+			margin: 200px 50px 50px 30px;
+			display: inline-block;
+		}
+		li {
+			margin: 00px 00px 0px 50px;
+		}
+		li span{
+		color: blue;
+	}
+	#colores {
+			color: #9F3F2C;
+		}
+		.color {
+			color: #4D7DED;
+		}
+		.cambio {
+			A:hover color:blue;
+		}
+		.purpura {
+			color: purple;
+		}
+		A:HOOVER{color:red}
+		.margen {
+			background-color: #fab342;
+		}
+
+	</style>
+</head>
+<body>
+<img src="descarga.jpg" id="flotar">
+<ul id="cancelar">
+	<li class="margen">aulaClic. Cursos de informática gratis</li>
+</ul>
+<div class="color">
+	<h1>La primera web en español sobre cursos de informática gratis on-line.
+	</h1>
+</div>
+<div id="colores">
+	<ol>
+		<p>cursos de aula clic</p>
+		<li>Access 2016</li>
+		<li>excel 2016</li>
+		<li>internet</li>
+		<li>windows</li>
+		<p>cursos de colaboadores</p>
+		<li>autoCAD 2015</li>
+		<li>estdisticas con excel</li>
+		<li>joomia</li>
+	</ol>
+</div>
+<div class="purpura" class="cambio">
+	<p>
+		siguenos en<a href="" class="cambio">faceboock</a>
+	</p>
+</div>
+</body>
+</html> 
